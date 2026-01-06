@@ -1,3 +1,4 @@
+![College Website Screenshot](./screenshots/PK_College.jpeg)
 
 # Perunthalaivar Kamarajar Arts College
 
@@ -37,10 +38,6 @@ A static website for Perunthalaivar Kamarajar Arts College, built to showcase th
 - HTML5
 - CSS3 & Tailwindcss
 - JavaScript
-
-## Screenshots
-
-![College Website Screenshot](./screenshots/PK_College.jpeg)
 
 ## Installation
 
