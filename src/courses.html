@@ -6,14 +6,6 @@
     <title>Courses - University Management</title>
     <link rel="stylesheet" href="../dist/output.css">
     <style>
-        .modal {
-            transition: opacity 0.3s ease;
-        }
-
-        .modal-content {
-            transition: transform 0.3s ease;
-        }
-
         .course-card {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
@@ -95,18 +87,18 @@
                     seatsFilled: 45,
                     files: [{
                             id: 101,
-                            name: "Syllabus.pdf",
+                            name: "B.A (Tamil) - Syllabus",
                             description: "Complete course syllabus for the year.",
-                            size: 1200000,
-                            url: "#"
+                            size: 4900000,
+                            url: "../images/pdfs/B.A(Tamil).pdf"
                         },
-                        {
-                            id: 102,
-                            name: "Sangam_Literature.docx",
-                            description: "Introductory notes on Sangam period.",
-                            size: 45000,
-                            url: "#"
-                        }
+                        // {
+                        //     id: 102,
+                        //     name: "Sangam_Literature.docx",
+                        //     description: "Introductory notes on Sangam period.",
+                        //     size: 45000,
+                        //     url: "#"
+                        // }
                     ]
                 },
                 {
@@ -115,7 +107,21 @@
                     description: "Bachelor of Science in Mathematics.",
                     totalSeats: 60,
                     seatsFilled: 55, // Adjusted to be within the new total
-                    files: []
+                    files: [{
+                            id: 102,
+                            name: "Maths - Syllabus",
+                            description: "Complete course syllabus for the year.",
+                            size: 4900000,
+                            url: "../images/pdfs/B.Sc(Maths).pdf"
+                        },
+                    {
+                            id: 103,
+                            name: "Maths with Statistics - Syllabus",
+                            description: "Complete course syllabus for the year.",
+                            size: 4900000,
+                            url: "../images/pdfs/B.Sc(Maths&St).pdf"
+                        },
+                    ]
                 },
                 {
                     id: 3,
@@ -123,28 +129,29 @@
                     description: "Bachelor of Business Administration in Tourism.",
                     totalSeats: 60,
                     seatsFilled: 48,
-                    files: []
+                    files: [
+                         {
+                            id: 104,
+                            name: "Syllabus",
+                            description: "Complete course syllabus for the year.",
+                            size: 4900000,
+                            url: "../images/pdfs/B.B.A(Tourism).pdf"
+                        },
+                    ]
                 },
                 {
-                    id: 4,
+                    id: 105,
                     name: "B.C.A (Computer Applications)",
                     description: "Bachelor of Computer Applications.",
                     totalSeats: 60,
-                    seatsFilled: 58, // Adjusted to be within the new total
+                    seatsFilled: 58, 
                     files: [{
                             id: 701,
-                            name: "Intro_to_Java.pptx",
-                            description: "Lecture slides for week 1.",
+                            name: "Syllabus",
+                            description: "Complete course syllabus for the year.",
                             size: 3400000,
-                            url: "#"
+                            url: "../images/pdfs/B.C.A.pdf"
                         },
-                        {
-                            id: 702,
-                            name: "Project_Guidelines.pdf",
-                            description: "Guidelines for the final semester project.",
-                            size: 500000,
-                            url: "#"
-                        }
                     ]
                 },
                 {
@@ -152,8 +159,16 @@
                     name: "B.Com",
                     description: "Bachelor of Commerce.",
                     totalSeats: 60,
-                    seatsFilled: 59, // Adjusted to be within the new total
-                    files: []
+                    seatsFilled: 59,
+                    files: [
+                        {
+                            id: 701,
+                            name: "Syllabus",
+                            description: "Complete course syllabus for the year.",
+                            size: 3400000,
+                            url: "../images/pdfs/B.Com(General).pdf"
+                        },
+                    ]
                 }
             ];
             // --- DOM ELEMENTS ---

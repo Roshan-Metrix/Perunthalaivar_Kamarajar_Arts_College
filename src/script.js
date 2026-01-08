@@ -1,7 +1,7 @@
 // Header + Nav
 const header = document.getElementById("header-box").innerHTML = `<header class="bg-white shadow-md relative z-50">
 
-       <a href="#"><img src="../images/images/banner.jpeg" class="w-full h-40 object-cover" alt="College Banner"></a>
+       <a href="../index.html"><img src="../images/images/banner.jpeg" class="w-full h-40 object-cover" alt="College Banner"></a>
         <!--  MARQUEE  -->
         <div class="marquee-container py-2">
             <p class="marquee-text text-stone-700">
@@ -23,7 +23,7 @@ const header = document.getElementById("header-box").innerHTML = `<header class=
             <!-- DESKTOP NAV -->
             <nav class="hidden md:flex justify-center items-center pt-2 color-blue-600">
                 <div class="flex items-center justify-center flex-wrap gap-x-5 gap-y-2" id="navbar">
-                    <a href="./index.html" class="nav-link text-gray-600 font-medium hover:bg-amber-500 hover:px-2 hover:rounded hover:text-white">Home</a>
+                    <a href="../index.html" class="nav-link text-gray-600 font-medium hover:bg-amber-500 hover:px-2 hover:rounded hover:text-white">Home</a>
 
                     <!-- About Us Dropdown -->
                     <div class="relative group">
